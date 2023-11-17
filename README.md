@@ -18,3 +18,6 @@ There are also two additional shared commands, which are only defined for some l
 The reason why these latter two commands are only available in some languages, is because the language must provide some constructs to help facilitate this command in a meaningful way.
 For example, Golang and Rust provides a `bench` command in their compiler, meaning the justfile for these languages would contain a `bench` command.
 
+# Modification
+It is important to mention and emphasize that these justfiles use extremely generic commands, and when appropriate you should modify the contents of the justfile to better fit the project you are working on.
+
