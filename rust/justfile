@@ -1,1 +1,17 @@
-# test
+# framework commands
+
+run:
+	cargo run --all-features
+
+build:
+	cargo build --all-features
+
+test:
+	cargo test --all-features
+
+bench:
+	cargo bench --all-features
+
+doc:
+	cargo doc --all-features --open
+
