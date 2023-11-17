@@ -15,3 +15,16 @@ bench:
 doc:
 	cargo doc --all-features --open
 
+# additional useful commands
+
+rr:
+	cargo run --all-features --release
+
+br:
+	cargo build --all-features --release
+
+clippy:
+	cargo clippy --tests --all-features -- -W clippy::all -D warnings
+
+pedantic:
+	cargo clippy --tests --all-features -- -W clippy::pedantic
